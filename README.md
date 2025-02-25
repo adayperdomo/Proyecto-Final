@@ -61,13 +61,12 @@
 
     <div class="espacio"></div>
 
-    <h2 class="titulo">Péliculas actuales</h2>
+    <h2 class="titulo">PELÍCULAS 2024</h2>
     <section class="tarjetas">
         <article class="tarjeta">
             <a href="#">
                 <img src="https://hips.hearstapps.com/hmg-prod/images/el-especialista-poster-662ba91800a75.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Especialista"><br><br>
                 <h2>EL ESPECIALISTA</h2><br>
-                <p>El doble de acción Colt Seavers sufre una lesión y abandona la profesión, pero regresa para participar en una película que dirigirá la mujer de la que está enamorado. Todo se complica cuando la estrella del filme, en deuda con narcos, desaparece.</p><br>
             </a>    
         </article>
 
@@ -76,7 +75,6 @@
                 <img src="https://cineslanzarote.com/wp-content/uploads/2024/10/terrifier_3-141451507-large-360x618_c.jpg" alt="art"><br><br>
                 <h2>TERRIFIER 3</h2><br>
                 <img class="rate" src="mal-onion.png" alt="">
-                <p>Tras sobrevivir a la masacre de Halloween perpetrada por Art, el peor asesino en serie desde Jack el Destripador, Sienna y su hermano tratan de reconstruir sus vidas. Se acercan las fiestas de Navidad e intentan celebrarlas olvidando el pasado.</p><br>
             </a>     
         </article>
 
@@ -84,7 +82,6 @@
             <a href="#">
                 <img src="https://artesiete.es/Posters/deadpoolylobezno.jpg" alt="dead"><br><br>
                 <h2>DEADPOOL Y LOBEZNO</h2><br>
-                <p>Lobezno se recupera de sus heridas cuando se cruza con el bocazas, Deadpool, que ha viajado en el tiempo para curarlo con la esperanza de hacerse amigos y formar un equipo para acabar con un enemigo común.</p><br>
             </a>    
         </article>
 
@@ -92,10 +89,73 @@
             <a href="">
                 <img src="https://pics.filmaffinity.com/Dune_Parte_Dos-835984588-large.jpg" alt="dune"><br><br>
                 <h2>DUNE PARTE 2</h2><br>
-                <p>Paul Atreides se une a Chani y a los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia. Enfrentándose a una elección entre el amor de su vida y el destino del universo, debe evitar un futuro terrible.</p><br>
             </a>     
         </article>
     </section>
+    <h2 class="titulo">SERIES 2024</h2>
+    <section class="tarjetas">
+        <article class="tarjeta">
+            <a href="#">
+                <img src="https://resizing.flixster.com/jAlNgPqSQHpxH6ju0Eis-j8cdWE=/206x305/v2/https://resizing.flixster.com/dIDB54V_MjguvAiEPfYlB3_cYfg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vYjExOWI4M2UtZjhiMS00MWUxLWJhN2QtNjMzNjk1ZjFlYjc0LmpwZw==" alt="arcane"><br><br>
+                <h2>TEMPORADA 2 – ARCANE</h2><br>
+            </a>    
+        </article>
+
+        <article class="tarjeta">
+            <a href="#">
+                <img src="https://pics.filmaffinity.com/shogun-329020163-mmed.jpg" alt="Shogun"><br><br>
+                <h2>SHOGUN</h2><br>
+                <img class="rate" src="mal-onion.png" alt="">
+            </a>     
+        </article>
+
+        <article class="tarjeta">
+            <a href="#">
+                <img src="https://pics.filmaffinity.com/the_penguin-328044903-mmed.jpg" alt="PENGUIN"><br><br>
+                <h2>EL PINGüINO</h2><br>
+            </a>    
+        </article>
+
+        <article class="tarjeta">
+            <a href="">
+                <img src="https://pics.filmaffinity.com/solo_leveling-428113960-mmed.jpg" alt="solo"><br><br>
+                <h2>SOLO LEVELING</h2><br>
+            </a>     
+        </article>
+    </section>
+
+    <h2 class="titulo">PROXIMAMENTE EN CINES</h2>
+    <section class="tarjetas">
+        <article class="tarjeta">
+            <a href="#">
+                <img src="" alt=""><br><br>
+                <h2></h2><br>
+            </a>    
+        </article>
+
+        <article class="tarjeta">
+            <a href="#">
+                <img src="" alt=""><br><br>
+                <h2></h2><br>
+                <img class="rate" src="mal-onion.png" alt="">
+            </a>     
+        </article>
+
+        <article class="tarjeta">
+            <a href="#">
+                <img src="" alt=""><br><br>
+                <h2></h2><br>
+            </a>    
+        </article>
+
+        <article class="tarjeta">
+            <a href="">
+                <img src="" alt=""><br><br>
+                <h2></h2><br>
+            </a>     
+        </article>
+    </section>
+
 
     <footer>
         <p id="foo2"></p>
@@ -182,6 +242,12 @@ img{
 
 .tarjeta{
     border: 1px solid black;
+    border-radius: 20px;
+    width: 180px;
+    height: 376.34;
+    background-color: white;
+    margin: 10px;
+
 }
 
 .tarjeta a .rate{
@@ -204,10 +270,16 @@ img{
     border-radius: 5%;
     border: 1px solid black;
     height: 231.7px;
+    padding-top: 0px;
+    margin: 10px;
 }
 
 .tarjetas p{
     margin: 5px;
+}
+
+.por{
+    margin-bottom: 20px;
 }
 
 .tarjetas{
@@ -218,12 +290,19 @@ img{
         "cel10 cel11 cel12 cel13" 1fr/
          1fr   1fr   1fr   1fr;
     text-align: center;
-    margin: 10px;
     gap: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #B45A82;
 }
 
 .titulo{
     padding-left: 20px;
-    margin: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 ```
