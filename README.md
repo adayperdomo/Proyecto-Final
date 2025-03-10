@@ -9,6 +9,7 @@
     <title>Rotten Onion</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/517/517559.png" type="image/x-icon">
+    
 </head>
 <body>
     <header>
@@ -20,142 +21,144 @@
                 </div>
                 <li class="ante"><a href="#">PELÍCULAS</a>
                     <ul class="sub">
-                        <h2>Géneros:</h2>
-                        <li><a href="#">Acción</a></li>
-                        <li><a href="#">Terror</a></li>
-                        <li><a href="#">Drama</a></li>
-                        <li><a href="#">Animación</a></li>
+                        <li><a href="#">· Acción</a></li>
+                        <li><a href="#">· Terror</a></li>
+                        <li><a href="#">· Drama</a></li>
+                        <li><a href="#">· Animación</a></li>
                     </ul>
                 </li>
                 <li class="ante"><a href="#">SERIES</a>   
                     <ul class="sub">
-                        <li><a href="#">Acción</a></li>
-                        <li><a href="#">Terror</a></li>
-                        <li><a href="#">Drama</a></li>
-                        <li><a href="#">Animación</a></li>
+                        <li><a href="#">· Acción</a></li>
+                        <li><a href="#">· Terror</a></li>
+                        <li><a href="#">· Drama</a></li>
+                        <li><a href="#">· Animación</a></li>
                     </ul>
                 </li>
                 <li class="ante"><a href="#">RANKING DE PELÍCULAS</a>    
                     <ul class="sub">
-                        <li><a href="#">Las tres mejores</a></li>
-                        <li><a href="#">Las cinco mejores</a></li>
-                        <li><a href="#">Las diez mejores</a></li>
-                    </ul>
-                </li>
-                <li class="ante"><a href="#">ACTORES / ACTRICES</a>    
-                    <ul class="sub">
-                        <li><a href="#">Actores más conicidos</a></li>
-                        <li><a href="#">Actrices más conocidas</a></li>
+                        <li><a href="#">· Las tres mejores</a></li>
+                        <li><a href="#">· Las cinco mejores</a></li>
+                        <li><a href="#">· Las diez mejores</a></li>
                     </ul>
                 </li>
                 <li class="ante"><a href="#">CINE CLÁSICO</a>    
                     <ul class="sub">
-                        <li><a href="#">Años 70</a></li>
-                        <li><a href="#">Años 80</a></li>
-                        <li><a href="#">Años 90</a></li>
+                        <li><a href="#">· Años 70</a></li>
+                        <li><a href="#">· Años 80</a></li>
+                        <li><a href="#">· Años 90</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
+        <div class="espacio"></div>
     </header> 
 
-    <div class="espacio"></div>
+    <main>
+        <h2 class="titulo">PELÍCULAS 2024</h2>
+        <section class="tarjetas">
+            <article class="tarjeta">
+                <a href="#">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/el-especialista-poster-662ba91800a75.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Especialista"><br>
+                    <h2>EL ESPECIALISTA</h2><br>
+                </a>    
+            </article>
 
-    <h2 class="titulo">PELÍCULAS 2024</h2>
-    <section class="tarjetas">
-        <article class="tarjeta">
-            <a href="#">
-                <img src="https://hips.hearstapps.com/hmg-prod/images/el-especialista-poster-662ba91800a75.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Especialista"><br><br>
-                <h2>EL ESPECIALISTA</h2><br>
-            </a>    
-        </article>
+            <article class="tarjeta">
+                <a href="#">
+                    <img src="https://cineslanzarote.com/wp-content/uploads/2024/10/terrifier_3-141451507-large-360x618_c.jpg" alt="art"><br>
+                    <h2>TERRIFIER 3</h2><br>
+                </a>     
+            </article>
 
-        <article class="tarjeta">
-            <a href="#">
-                <img src="https://cineslanzarote.com/wp-content/uploads/2024/10/terrifier_3-141451507-large-360x618_c.jpg" alt="art"><br><br>
-                <h2>TERRIFIER 3</h2><br>
-                <img class="rate" src="mal-onion.png" alt="">
-            </a>     
-        </article>
+            <article class="tarjeta">
+                <a href="#">
+                    <img src="https://artesiete.es/Posters/deadpoolylobezno.jpg" alt="dead"><br>
+                    <h2>DEADPOOL Y LOBEZNO</h2><br>
+                </a>    
+            </article>
 
-        <article class="tarjeta">
-            <a href="#">
-                <img src="https://artesiete.es/Posters/deadpoolylobezno.jpg" alt="dead"><br><br>
-                <h2>DEADPOOL Y LOBEZNO</h2><br>
-            </a>    
-        </article>
+            <article class="tarjeta">
+                <a href="">
+                    <img src="https://pics.filmaffinity.com/Dune_Parte_Dos-835984588-large.jpg" alt="dune"><br>
+                    <h2>DUNE PARTE 2</h2><br>
+                </a>     
+            </article>
+        </section>
+        <h2 class="titulo">SERIES 2024</h2>
+        <section class="tarjetas">
+            <article class="tarjeta">
+                <a href="#">
+                    <img src="https://resizing.flixster.com/jAlNgPqSQHpxH6ju0Eis-j8cdWE=/206x305/v2/https://resizing.flixster.com/dIDB54V_MjguvAiEPfYlB3_cYfg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vYjExOWI4M2UtZjhiMS00MWUxLWJhN2QtNjMzNjk1ZjFlYjc0LmpwZw==" alt="arcane"><br>
+                    <h2>TEMPORADA 2 – ARCANE</h2><br>
+                </a>    
+            </article>
 
-        <article class="tarjeta">
-            <a href="">
-                <img src="https://pics.filmaffinity.com/Dune_Parte_Dos-835984588-large.jpg" alt="dune"><br><br>
-                <h2>DUNE PARTE 2</h2><br>
-            </a>     
-        </article>
-    </section>
-    <h2 class="titulo">SERIES 2024</h2>
-    <section class="tarjetas">
-        <article class="tarjeta">
-            <a href="#">
-                <img src="https://resizing.flixster.com/jAlNgPqSQHpxH6ju0Eis-j8cdWE=/206x305/v2/https://resizing.flixster.com/dIDB54V_MjguvAiEPfYlB3_cYfg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vYjExOWI4M2UtZjhiMS00MWUxLWJhN2QtNjMzNjk1ZjFlYjc0LmpwZw==" alt="arcane"><br><br>
-                <h2>TEMPORADA 2 – ARCANE</h2><br>
-            </a>    
-        </article>
+            <article class="tarjeta">
+                <a href="#">
+                    <img src="https://pics.filmaffinity.com/shogun-329020163-mmed.jpg" alt="Shogun"><br>
+                    <h2>SHOGUN</h2><br>
+                </a>     
+            </article>
 
-        <article class="tarjeta">
-            <a href="#">
-                <img src="https://pics.filmaffinity.com/shogun-329020163-mmed.jpg" alt="Shogun"><br><br>
-                <h2>SHOGUN</h2><br>
-                <img class="rate" src="mal-onion.png" alt="">
-            </a>     
-        </article>
+            <article class="tarjeta">
+                <a href="#">
+                    <img src="https://pics.filmaffinity.com/the_penguin-328044903-mmed.jpg" alt="PENGUIN"><br>
+                    <h2>EL PINGüINO</h2><br>
+                </a>    
+            </article>
 
-        <article class="tarjeta">
-            <a href="#">
-                <img src="https://pics.filmaffinity.com/the_penguin-328044903-mmed.jpg" alt="PENGUIN"><br><br>
-                <h2>EL PINGüINO</h2><br>
-            </a>    
-        </article>
-
-        <article class="tarjeta">
-            <a href="">
-                <img src="https://pics.filmaffinity.com/solo_leveling-428113960-mmed.jpg" alt="solo"><br><br>
-                <h2>SOLO LEVELING</h2><br>
-            </a>     
-        </article>
-    </section>
+            <article class="tarjeta">
+                <a href="">
+                    <img src="https://pics.filmaffinity.com/solo_leveling-428113960-mmed.jpg" alt="solo"><br>
+                    <h2>SOLO LEVELING</h2><br>
+                </a>     
+            </article>
+        </section>
+    </main>
 
     <h2 class="titulo">PROXIMAMENTE EN CINES</h2>
     <section class="tarjetas">
         <article class="tarjeta">
             <a href="#">
-                <img src="" alt=""><br><br>
-                <h2></h2><br>
-            </a>    
-        </article>
-
-        <article class="tarjeta">
-            <a href="#">
-                <img src="" alt=""><br><br>
-                <h2></h2><br>
-                <img class="rate" src="mal-onion.png" alt="">
-            </a>     
-        </article>
-
-        <article class="tarjeta">
-            <a href="#">
-                <img src="" alt=""><br><br>
-                <h2></h2><br>
+                <img src="https://resizing.flixster.com/O8SRKborzNOgIo41jA3g9xRtX9I=/206x305/v2/https://resizing.flixster.com/MdoLqYBS-znXlvk7XCK7aIwTkMQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U2MjhlZTE1LWMxODAtNGJlMC04Yjc2LWEyNDBiODk0OGRkZS5qcGc=" alt=""><br>
+                <h2>NOVOCAINE</h2><br>
             </a>    
         </article>
 
         <article class="tarjeta">
             <a href="">
-                <img src="" alt=""><br><br>
-                <h2></h2><br>
+                <img src="https://resizing.flixster.com/MXPAoeB3VE-VkdktfIYwfnGgc1o=/206x305/v2/https://resizing.flixster.com/1OiUfykO45X98oT74J71RvidMxA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ExNDlhNzE2LTFlODMtNGMyNi04ZWY1LTNlYmY5N2ZmYWJhNy5qcGc=" alt=""><br>
+                <h2>MICKEY 17</h2><br>
+            </a>     
+        </article>
+
+        <article class="tarjeta">
+            <a href="#">
+                <img src="https://www.ecartelera.com/carteles/17300/17359/002_mini.webp" alt=""><br>
+                <h2>THUNDERBOLTS</h2><br>
+            </a>    
+        </article>
+
+        <article class="tarjeta">
+            <a href="#">
+                <img src="https://www.ecartelera.com/carteles/18800/18884/002_mini.webp" alt=""><br>
+                <h2>28 AÑOS DESPUÉS</h2><br>
+
             </a>     
         </article>
     </section>
 
+    <aside>
+        <div>
+            <a href="https://www.oscars.org/oscars/ceremonies/2025" target="_blank">
+                <p>La 97.ª edición de los Premios Óscar</p>
+                <img src="https://www.oscars.org/sites/oscars/files/oembed_thumbnails/4qpd1kMsIU2hfVQJwYFvfJ-eezVA4dqhLmJaEkHJK3w.jpg?VersionId=Ne7YWnizQQwZ6TGZ67UIeTfri3oC2MMb" alt="">
+                <img src="https://www.oscars.org/sites/oscars/files/oembed_thumbnails/U0MfRQSNxonF0HuST89k7k1mlgD3_Ufxtx1BIIxMfOQ.jpg?VersionId=bLmrOwdX6Ld.65kx2rjOaXaiQj6RGeA." alt="">
+                <img src="https://www.oscars.org/sites/oscars/files/oembed_thumbnails/qFwsoX3G5Nc0bx1PAIg3z3IwqegHO3fwZhdixDamRLs.jpg?VersionId=lY.pZzUXC8YhNBhGGYLSXMcnV0PjJ7Lj" alt="">
+            </a>
+        </div>
+    </aside>
 
     <footer>
         <p id="foo2"></p>
@@ -173,6 +176,18 @@
     font-family:Impact,'Arial Narrow Bold', sans-serif;
 }
 
+body{
+    padding-top: 80px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 nav{
     background-color: #B45A82;
     display: flex;
@@ -181,10 +196,18 @@ nav{
     height: 80px;
 }
 
+main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .pri{
     display: flex;
     list-style-type: none;
-    height: 3em;
+    margin-bottom: 20px;
+    height: 20px;
 }
 
 nav ul li a{
@@ -194,6 +217,8 @@ nav ul li a{
     justify-content: space-between;
     margin-left: 30px;
     transition: 0.5s;
+    width: 200px;
+    height: 50px;
 }
 
 .buscar input{
@@ -206,27 +231,48 @@ nav ul li a{
     font-size: 20px;
 }
 
-nav ul li a:hover{
+.sub{
+    display: none;
+    list-style: none;
+    padding-top: 1px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border: 1px solid black;
+}
+
+.sub li a{
+    color: black;
+    list-style: none;
+    height: auto;
+    margin: 20px;
+    width: 150px;
+    
+}
+
+.sub li a:hover{
+    
+    border: 1px solid black;
+}
+
+.ante:hover > a{
     display: block;
     color: black;
     background-color: white;
     padding: 5px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     padding-top: 20px;
     padding-bottom: 25px;
-
-}
-
-.sub{
-    display: none;
+    border: 1px solid black;
 }
 
 .ante:hover > .sub{
     display: block;
-    color: white;
-    background-color: black;
-    border: 1px solid black;
+    background-color: white;
 }
+
 
 img{
     padding-top: 20px;
@@ -247,13 +293,7 @@ img{
     height: 376.34;
     background-color: white;
     margin: 10px;
-
-}
-
-.tarjeta a .rate{
-    width: 16px;
-    height: 16px;
-    border: none;
+    transition: 0.5s;
 }
 
 .tarjeta a{
@@ -262,7 +302,7 @@ img{
 }
 
 .tarjeta:hover{
-    background-color: rgba(191, 187, 189, 0.2);
+    scale: 1.05;
 }
 
 .tarjeta img{
@@ -278,10 +318,6 @@ img{
     margin: 5px;
 }
 
-.por{
-    margin-bottom: 20px;
-}
-
 .tarjetas{
     display: grid;
     grid-template:
@@ -295,14 +331,39 @@ img{
     display: flex;
     justify-content: center;
     border: 1px solid black;
-    background-color: #B45A82;
+    background-color: #B45A82;             
+    max-width: 850px;       
+    margin: 20px auto;             
+    padding: 10px; 
+    border-radius: 7px;
 }
 
 .titulo{
-    padding-left: 20px;
     margin-top: 20px;
-    padding-top: 20px;
     display: flex;
     justify-content: center;
+}
+
+aside{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 300px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+aside img{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 ```
