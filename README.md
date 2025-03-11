@@ -149,7 +149,7 @@
         </article>
     </section>
 
-    <aside>
+    <aside class="iz">
         <div>
             <a href="https://www.oscars.org/oscars/ceremonies/2025" target="_blank">
                 <p>La 97.ª edición de los Premios Óscar</p>
@@ -160,8 +160,19 @@
         </div>
     </aside>
 
+    <aside class="de">
+        <div>
+            <a href="https://www.elmundo.es/cultura/2025/01/06/677b87e7fc6c832f0e8b4570.html" target="_blank">
+                <p>Ganadores de los globos de oro</p>
+                <img src="https://phantom-elmundo.unidadeditorial.es/4e82b85d474ff05a28e5fe9aae6b3c27/crop/0x0/3072x2048/resize/646/f/webp/assets/multimedia/imagenes/2025/01/06/17361496385339.jpg" alt="">
+                <img src="https://s.france24.com/media/display/2dfc4812-cc36-11ef-b7fd-005056bf30b7/w:1280/p:16x9/Globos%205.jpg" alt="">
+                <img src="https://imagenes.20minutos.es/files/image_990_556/uploads/imagenes/2025/01/06/el-equipo-de-shogun-en-los-globos-de-oro-2025.jpeg" alt="">
+            </a>
+        </div>
+    </aside>
+
     <footer>
-        <p id="foo2"></p>
+        <p id="foo2">Pagina creada por Aday Perdomo Rodríguez</p>
     </footer>
 </body>
 </html>
@@ -173,7 +184,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Impact,'Arial Narrow Bold', sans-serif;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: medium;
 }
 
 body{
@@ -201,6 +213,7 @@ main{
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    flex-direction: column;
 }
 
 .pri{
@@ -252,7 +265,6 @@ nav ul li a{
 }
 
 .sub li a:hover{
-    
     border: 1px solid black;
 }
 
@@ -344,26 +356,64 @@ img{
     justify-content: center;
 }
 
-aside{
+.iz{
     position: absolute;
-    top: 120px;
+    top: 400px;
     left: 0;
     width: 300px;
     padding: 10px;
     flex-direction: column;
 }
 
-aside a{
+.iz a{
     text-decoration: none;
     color: black;
     text-align: center;
 }
 
-aside img{
+.iz img{
     height: auto;
     width: 100%;
     display: block;
     margin: 0;
     padding: 0;
+    border: 2px solid black;
+}
+
+.de{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 300px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.de a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.de img{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+
+footer{
+    width: 100%;
+    background-color: #B45A82;
+    color: white;
+    height: 100px;
+    justify-content: center;
+}
+
+footer p{
+    padding-top: 50px;
+    padding-left: 20px;
 }
 ```
