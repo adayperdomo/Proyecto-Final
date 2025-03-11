@@ -9,7 +9,9 @@
     <title>Rotten Onion</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/517/517559.png" type="image/x-icon">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -180,12 +182,14 @@
 
 # Stye.css
 ```sh
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Arial Narrow Bold', sans-serif;
-    font-size: medium;
+    font-family: "Poppins", sans-serif;
+    font-size:large;
 }
 
 body{
@@ -210,7 +214,7 @@ nav{
 
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 1200px;
     margin: 0 auto;
     flex-direction: column;
@@ -227,10 +231,10 @@ nav ul li a{
     display: flex;
     text-decoration: none;
     color: white;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 30px;
     transition: 0.5s;
-    width: 200px;
+    width: 250px;
     height: 50px;
 }
 
@@ -261,11 +265,14 @@ nav ul li a{
     height: auto;
     margin: 20px;
     width: 150px;
-    
+    display: block;
+    padding-left: 20px;
 }
 
 .sub li a:hover{
-    border: 1px solid black;
+    padding-left: 40px;
+    color: red;
+    font-weight: bold;
 }
 
 .ante:hover > a{
@@ -278,6 +285,7 @@ nav ul li a{
     padding-top: 20px;
     padding-bottom: 25px;
     border: 1px solid black;
+    text-align: center;
 }
 
 .ante:hover > .sub{
@@ -295,7 +303,7 @@ img{
 .espacio{
     background-color: black;
     width: 100%;
-    height: 20px;
+    height: 15px;
 }
 
 .tarjeta{
