@@ -119,16 +119,19 @@ nav ul li a{
     padding: 10px;
     border-radius: 7px;
     transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    font-size: 14px;
 }
 
 .poster {
-    margin-bottom: 20px;
+    position: relative;
 }
 
 .poster img {
     width: 100%;
     height: auto;
-    border-radius: 5%;
     border: 1px solid black;
     display: block;
     padding-top: 0px;
@@ -173,7 +176,7 @@ nav ul li a{
 
 .titulo{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: larger;
 }
 
@@ -193,4 +196,12 @@ footer{
 footer p{
     padding-top: 50px;
     padding-left: 20px;
+}
+
+.seccion-peliculas{
+    display: grid;
+    grid-template-columns: repeat(2, 250px); 
+    gap: 20px; 
+    max-width: 900px; 
+    margin: 0 auto 40px; 
 }
