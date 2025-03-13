@@ -8,6 +8,10 @@
     font-size:large;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     padding-top: 80px;
 }
