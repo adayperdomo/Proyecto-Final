@@ -129,7 +129,6 @@ footer p{
     border: 1px solid black;
     text-align: center;
     width: 100%;
-    justify-content: center;
 }
 
 h2{
@@ -151,3 +150,17 @@ h2{
     border: 1px solid black;
 }
 
+.calificacion{
+    padding-left: 50px;
+}
+
+.cali{
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    padding-top: 25px;
+    border-radius: 100%;
+    background-color: lightgreen;
+    font-size: larger;
+    font-weight: bolder;
+}
