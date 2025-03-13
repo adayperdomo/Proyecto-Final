@@ -129,6 +129,9 @@ footer p{
     border: 1px solid black;
     text-align: center;
     width: 100%;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
 }
 
 h2{
@@ -155,12 +158,26 @@ h2{
 }
 
 .cali{
-    border: 1px solid black;
     height: 80px;
     width: 80px;
     padding-top: 25px;
     border-radius: 100%;
     background-color: lightgreen;
     font-size: larger;
-    font-weight: bolder;
+}
+
+.dine{
+    height: 40px;
+    width: 200px;
+    padding-top: 25px;
+    background-color: gold;
+    padding-top: 5px;
+}
+
+tr{
+    transition: 0.5s;
+}
+
+tr:hover{
+    background-color: lightskyblue;
 }
