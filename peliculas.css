@@ -43,7 +43,7 @@ nav ul li a{
     display: flex;
     text-decoration: none;
     color: white;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-left: 30px;
     transition: 0.5s;
     width: 250px;
@@ -198,4 +198,3 @@ footer p{
 .text{
     font-weight:bold;
 }
-
