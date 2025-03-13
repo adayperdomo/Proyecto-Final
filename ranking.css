@@ -130,8 +130,10 @@ footer p{
     text-align: center;
     width: 100%;
     font-size: larger;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 900;
     margin: 10px;
+    background-color: lightskyblue;
 }
 
 h2{
@@ -179,5 +181,6 @@ tr{
 }
 
 tr:hover{
-    background-color: lightskyblue;
+    background-color: rgb(28, 120, 185);
 }
+

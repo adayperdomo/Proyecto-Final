@@ -131,7 +131,7 @@ nav ul li a{
 
 .poster img {
     width: 100%;
-    height: auto;
+    height: 300px;
     border: 1px solid black;
     display: block;
     padding-top: 0px;
@@ -177,6 +177,7 @@ nav ul li a{
 .titulo{
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 20px;
     font-size: larger;
 }
 
@@ -200,8 +201,10 @@ footer p{
 
 .seccion-peliculas{
     display: grid;
-    grid-template-columns: repeat(2, 250px); 
+    grid-template-columns: repeat(4, 250px); 
     gap: 20px; 
-    max-width: 900px; 
     margin: 0 auto 40px; 
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
 }
