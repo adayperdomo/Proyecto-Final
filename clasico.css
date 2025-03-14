@@ -212,3 +212,10 @@ footer p{
     justify-content: center;
     justify-content: space-evenly;
 }
+
+.band{
+    margin: 10px;
+    width: 40px;
+    height: 70px;
+    padding-top: 50px;
+}

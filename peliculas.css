@@ -198,3 +198,10 @@ footer p{
 .text{
     font-weight:bold;
 }
+
+.band{
+    margin: 10px;
+    width: 40px;
+    height: 70px;
+    padding-top: 50px;
+}
