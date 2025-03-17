@@ -19,11 +19,11 @@
         height: 730px;
     }
 
-    .pri{
+    nav .pri{
         display: none;
     }
 
-    .ham a{
+     nav .ham a{
         display: block;
     }
 }
@@ -38,8 +38,8 @@
              1fr   1fr;
     }
 
-    .ham a{
-        width: 150px;
+    nav .ham a{
+        width: 50px;
     }
 }
 
