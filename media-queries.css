@@ -1,0 +1,56 @@
+@media (max-width: 1450px) {
+    .iz{
+        display: none;
+    }
+
+    .de{
+        display: none;
+    }
+}
+
+@media (max-width: 860px) {
+    .tarjetas{
+        display: grid;
+        grid-template:
+            "cel1 cel2 cel3" 1fr
+            "cel5 cel7 cel8" 1fr
+            "cel10 cel11 cel12" 1fr/
+             1fr   1fr   1fr;
+        height: 730px;
+    }
+
+    .pri{
+        display: none;
+    }
+
+    .ham a{
+        display: block;
+    }
+}
+
+@media (max-width: 650px) {
+    .tarjetas{
+        display: grid;
+        grid-template:
+            "cel1 cel2" 1fr
+            "cel5 cel7" 1fr
+            "cel10 cel11" 1fr/
+             1fr   1fr;
+    }
+
+    .ham a{
+        width: 150px;
+    }
+}
+
+@media (max-width: 440px) {
+    .tarjetas{
+        display: grid;
+        grid-template:
+            "cel1" 1fr
+            "cel5" 1fr
+            "cel10" 1fr/
+             1fr;
+    }
+}
+
