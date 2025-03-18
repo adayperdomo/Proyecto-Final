@@ -28,7 +28,7 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 770px) {
     .tarjetas{
         display: grid;
         grid-template:
@@ -43,7 +43,13 @@
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 1200px) {
+    main .calificacion{
+        margin: 30px;
+    }
+}
+
+@media (max-width: 530px) {
     .tarjetas{
         display: grid;
         grid-template:
@@ -53,6 +59,21 @@
             "cel4" 1fr/
              1fr;
         height: 1500px;
+    }
+}
+
+@media (max-width: 585px) {
+    .text{
+        display: none;
+        margin: 0;
+    }
+
+    .calificacion {
+        margin-right: 30px;
+    }
+
+    .info p{
+        font-size: 12px;
     }
 }
 
@@ -81,6 +102,23 @@
       margin: 0 auto; 
     }
   
+    main th{
+        font-size: 12px;
+    }
+
+    main td{
+        font-size: 12px;
+    }
+
+    main .cali{
+        height: 70px;
+    }
+
+    main .dine{
+        width: 10px;
+        background-color: lightskyblue;
+    }
+
     .best th, .best td {
       padding: 8px;
     }
