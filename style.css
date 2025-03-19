@@ -50,10 +50,9 @@ main{
 
 nav ul li a{
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
     text-decoration: none;
     color: white;
+    justify-content: space-evenly;
     margin-left: 30px;
     transition: 0.5s;
     width: 250px;
@@ -230,7 +229,7 @@ img{
     width: 300px;
     padding: 10px;
     flex-direction: column;
-    padding-right: 50px;
+    padding-: 50px;
 
 }
 

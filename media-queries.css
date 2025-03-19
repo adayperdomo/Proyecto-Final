@@ -160,13 +160,8 @@
         border: 1px solid black;
         text-align: center;
         font-weight: bold;
+        color: red;
     }
-
-    nav ul li a {
-        justify-content: center; /* Centra horizontalmente */
-        align-items: center;     /* Centra verticalmente */
-    }
-    
 
     /* Cuando el nav (o alguno de sus descendientes) esté enfocado, muestra el menú */
     nav:focus-within ul.pri {
