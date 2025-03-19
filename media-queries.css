@@ -139,4 +139,47 @@
       display: block;
       margin: 10px auto;
     }
-  }
+}
+
+@media (max-width: 860px) {
+    nav ul.pri{
+        display: none;
+    }
+  
+    .sub li {
+        display: none;
+    }
+
+    .ante:hover > .sub{
+        display: block;
+        padding: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        border: 1px solid black;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    nav ul li a {
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center;     /* Centra verticalmente */
+    }
+    
+
+    /* Cuando el nav (o alguno de sus descendientes) esté enfocado, muestra el menú */
+    nav:focus-within ul.pri {
+        display: block;
+        position: absolute;
+        top: 80px; /* Justo debajo del nav */
+        left: 0;
+        width: 100%;
+        background-color: #B45A82;
+        height: 250px;
+        padding: 10px 0;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }   
+}
