@@ -204,6 +204,7 @@ img{
     width: 300px;
     padding: 10px;
     flex-direction: column;
+    padding-left: 50px;
 }
 
 .iz a{
@@ -228,6 +229,8 @@ img{
     width: 300px;
     padding: 10px;
     flex-direction: column;
+    padding-right: 50px;
+
 }
 
 .de a{
