@@ -8,7 +8,7 @@
     }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 971px) {
     .tarjetas{
         display: grid;
         grid-template:
@@ -177,4 +177,35 @@
         text-align: center;
         align-items: center;
     }   
+}
+
+@media (max-width: 1790px) {
+    nav ul.pri .buscar{
+        display: none;
+    }
+}
+
+@media (max-width: 1395px) {
+    .pri a{
+        width: 144px;
+        font-size: small;
+    }
+
+    .pri:hover{
+        display: none;
+    }
+
+    .sub{
+        display: none;
+    }
+
+    nav img{
+        height: 80px;
+        width: 100px;
+    }
+
+    .idioma{
+        height: 100px;
+        width: 300px;
+    }
 }
