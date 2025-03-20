@@ -23,8 +23,17 @@
         display: none;
     }
 
-     nav .ham a{
+    nav{
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        border: 1px solid black;
+        width: 120%;
+    }
+
+    nav .ham a{
         display: block;
+        
     }
 }
 
@@ -36,6 +45,14 @@
             "cel3 cel4" 1fr
             "cel5 cel6" 1fr/
              1fr   1fr;
+    }
+
+    nav{
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        border: 1px solid black;
+        width: 145%;
     }
 
     nav .ham a{
@@ -150,19 +167,6 @@
         display: none;
     }
 
-    .ante:hover > .sub{
-        display: block;
-        padding: 5px;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        padding-top: 20px;
-        padding-bottom: 25px;
-        border: 1px solid black;
-        text-align: center;
-        font-weight: bold;
-        color: red;
-    }
-
     /* Cuando el nav (o alguno de sus descendientes) esté enfocado, muestra el menú */
     nav:focus-within ul.pri {
         display: block;
@@ -186,6 +190,14 @@
 }
 
 @media (max-width: 1395px) {
+    .pri{
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        border: 1px solid black;
+        width: 100%;
+    }
+
     .pri a{
         width: 144px;
         font-size: small;
