@@ -27,13 +27,36 @@
         flex-direction: row;
         position: relative;
         justify-content: center;
-        border: 1px solid black;
         width: 120%;
     }
 
     nav .ham a{
         display: block;
         
+    }
+
+    nav ul.pri{
+        display: none;
+    }
+  
+    .sub li {
+        display: none;
+    }
+
+    nav:focus-within ul.pri {
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #B45A82;
+        height: 250px;
+        padding: 10px 0;
+        border: 1px solid black;
+    } 
+
+    footer p{
+        font-size: small;
     }
 }
 
@@ -51,18 +74,12 @@
         flex-direction: row;
         position: relative;
         justify-content: center;
-        border: 1px solid black;
-        width: 145%;
+        
+        width: 125%;
     }
 
     nav .ham a{
         width: 50px;
-    }
-}
-
-@media (max-width: 1200px) {
-    main .calificacion{
-        margin: 30px;
     }
 }
 
@@ -101,15 +118,18 @@
     .dine{
         font-size: small;
     }
-}
 
-@media (max-width: 1200px) {
-    main .seccion-peliculas {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-        
-    }
+    nav:focus-within ul.pri {
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #B45A82;
+        height: 250px;
+        padding: 10px 0;
+        border: 1px solid black;
+    } 
 }
 
 
@@ -167,20 +187,18 @@
         display: none;
     }
 
-    /* Cuando el nav (o alguno de sus descendientes) esté enfocado, muestra el menú */
     nav:focus-within ul.pri {
         display: block;
         position: absolute;
-        top: 80px; /* Justo debajo del nav */
+        top: 80px;
         left: 0;
         width: 100%;
         background-color: #B45A82;
         height: 250px;
         padding: 10px 0;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }   
+        transition: 0.5s;
+        border: 1px solid black;
+    }  
 }
 
 @media (max-width: 1790px) {
@@ -194,7 +212,6 @@
         flex-direction: row;
         position: relative;
         justify-content: center;
-        border: 1px solid black;
         width: 100%;
     }
 
