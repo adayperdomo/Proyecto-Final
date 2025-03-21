@@ -60,6 +60,12 @@
     }
 }
 
+@media (max-width: 860px) {
+    main .calificacion{
+        margin: 30px;
+    }
+}
+
 @media (max-width: 1200px) {
     main .seccion-peliculas {
         display: grid;
